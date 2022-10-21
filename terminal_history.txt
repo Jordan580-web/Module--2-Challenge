@@ -1,0 +1,31 @@
+    1  1s -a1 ~/.ssh
+    2  1s-a1 ~/.ssh
+    3  1s  -a1 ~/.ssh
+    4  ssh-keygen -t rsa -b 4096 -C "jordansa19@yahoo.com"
+    5  eval "$(ssh-agent -s)"
+    6  ssh-add ~/.ssh/id_rsa
+    7  clip < ~/.ssh/id_rsa.pub
+    8  ssh -T git@github.com
+    9  conda --version
+   10  conda --version
+   11  conda update conda
+   12  conda create -n dev python=3.7 anaconda
+   13  conda --version
+   14  conda create -n dev python=3.9 anaconda
+   15  conda - -version
+   16  conda create -n dev python=3.7
+   17  cd Desktop
+   18  cd_Desktop
+   19  cd Desktop
+   20  cd..
+   21  cd ~
+   22  1s
+   23  history 50 > terminal_history.txt
+   24  ls
+   25  cd ..
+   26  cd MODULE 2
+   27  CD Jorda
+   28  cd jorda
+   29  ls
+   30  cd Module\ 2\ Challenge
+   31  history 50 > terminal_history.txt
